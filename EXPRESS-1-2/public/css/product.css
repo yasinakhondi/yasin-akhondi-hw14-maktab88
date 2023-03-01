@@ -1,0 +1,16 @@
+table,
+td,
+th {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-collapse: collapse;
+  border-radius: 5px;
+  border: 2px solid #2d3034;
+  margin-left: 400px;
+}
+tr:hover:not(:first-of-type) {
+  background-color: rgb(220, 89, 18) !important;
+  color: black !important;
+}
+body {
+  background-color: aqua;
+}

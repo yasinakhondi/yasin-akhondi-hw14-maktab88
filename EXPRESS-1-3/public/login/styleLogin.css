@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.org {
+  background-color: rgb(203, 203, 49);
+
+  text-align: center;
+  margin: 200px 700px;
+  font-size: x-large;
+}
+.input {
+  margin: 10px 0px;
+  height: 30px;
+  width: 280px;
+  text-align: center;
+}
+
+#button {
+  background-color: rgba(192, 144, 35, 0.867);
+  height: 35px;
+  width: 190px;
+  margin-bottom: 50px;
+}
+
+#select {
+  height: 50px;
+  width: 180px;
+}

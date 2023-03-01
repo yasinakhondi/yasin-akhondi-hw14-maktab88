@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="http://localhost:9000/auth/signup?" method="post">
+      <div class="org">
+        <br /><b>
+          <h2>sign up Form</h2>
+        </b>
+        <div class="box">
+          <input class="input" class="all" type="text" name="firsname" placeholder="First name" />
+        </div>
+        <div class="box">
+          <input class="input"  type="text" name="lastname" placeholder="Lastname" />
+        </div>
+        <div class="box">
+          <input class="input"  type="password" name="password" placeholder="Password" />
+        </div>
+        <div class="box">
+          <input class="input"  type="text" name="username" placeholder="Username" />
+        </div>
+        <div class="box">
+          <select name="gender" id="select">
+            <option>gender..</option>
+            <option>male</option>
+            <option>female</option>
+          </select>
+        </div>
+        <div class="box">
+          <input class="input" id="button" type="submit" value="sign up" />
+        </div>
+    </form>
+    <script src="/main.js"></script>
+    <script
+			src="https://code.jquery.com/jquery-3.6.3.min.js"
+			integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+			crossorigin="anonymous"
+		></script>
+  </body>
+</html>
